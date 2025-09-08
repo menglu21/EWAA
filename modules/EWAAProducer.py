@@ -148,7 +148,7 @@ class EWAAProducer(Module):
     LooseMuon_id = []
     muons = Collection(event, 'Muon')
     for imu in range(0, event.nMuon):
-      if muons[imu].looseID and muons[imu].pt>10:
+      if muons[imu].looseId and muons[imu].pt>10:
         LooseMuon_id.append(imu)
 
     jets = Collection(event, 'Jet')
@@ -171,7 +171,7 @@ class EWAAProducer(Module):
       for imu in range(0,len(LooseMuon_id)):
         if pass_mu_dr<1:continue
         mid_tmp=LooseMuon_id[imu]
-        lep_v4_temp.SetPtEtaPhiM(event.Muon_corrected_pt[mid_tmp], muons[mid_tmp].eta, muons[mid_tmp].phi, muons[mid_tmp].mass)
+        lep_v4_temp.SetPtEtaPhiM(muons[mid_tmp].pt, muons[mid_tmp].eta, muons[mid_tmp].phi, muons[mid_tmp].mass)
         if jet_v4_temp.DeltaR(lep_v4_temp)<0.4:pass_mu_dr=0
       
       for iele in range(0,len(LooseElectron_id)):

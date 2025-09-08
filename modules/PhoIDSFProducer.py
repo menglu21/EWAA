@@ -55,9 +55,15 @@ class PhoIDSFProducer(Module):
     self.out.branch('Photon_PixelVeto_MediumID_Inc_SF','F', lenVar='nPhoton')
     self.out.branch('Photon_PixelVeto_MediumID_high_SF','F', lenVar='nPhoton')
     self.out.branch('Photon_PixelVeto_MediumID_low_SF','F', lenVar='nPhoton')
+    self.out.branch('Photon_PixelVeto_MediumID_Inc_SFerr','F', lenVar='nPhoton')
+    self.out.branch('Photon_PixelVeto_MediumID_high_SFerr','F', lenVar='nPhoton')
+    self.out.branch('Photon_PixelVeto_MediumID_low_SFerr','F', lenVar='nPhoton')
     self.out.branch('Photon_PixelVeto_TightID_Inc_SF','F', lenVar='nPhoton')
     self.out.branch('Photon_PixelVeto_TightID_high_SF','F', lenVar='nPhoton')
     self.out.branch('Photon_PixelVeto_TightID_low_SF','F', lenVar='nPhoton')
+    self.out.branch('Photon_PixelVeto_TightID_Inc_SFerr','F', lenVar='nPhoton')
+    self.out.branch('Photon_PixelVeto_TightID_high_SFerr','F', lenVar='nPhoton')
+    self.out.branch('Photon_PixelVeto_TightID_low_SFerr','F', lenVar='nPhoton')
   def endFile(self, inputFile, outputFile, inputTree, wrappedOutputTree):
     pass
 
