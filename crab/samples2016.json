@@ -1,0 +1,15 @@
+{
+"EGammaF": ["DoubleEG_F","/DoubleEG/Run2016F-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD","crab_script_dataF.sh"],
+"EGammaG": ["DoubleEG_G","/DoubleEG/Run2016G-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD","crab_script_dataG.sh"],
+"EGammaH": ["DoubleEG_H","/DoubleEG/Run2016H-UL2016_MiniAODv2_NanoAODv9-v1/NANOAOD","crab_script_dataH.sh"],
+"TTGG": ["TTGG","/TTGG_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM"],
+"DiPhoton_0to40":["DiPhoton_0to40","/DiPhotonJetsBox_MGG-0to40_13TeV-sherpa/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM"],
+"DiPhoton_40to80":["DiPhoton_40to80","/DiPhotonJetsBox_M40_80-sherpa/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM"],
+"DiPhoton_80toInf":["DiPhoton_80toInf","/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v2/NANOAODSIM"],
+"GJetsHT-40To100":["GJetsHT-40To100","/GJets_HT-40To100_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM"],
+"GJetsHT-100To200":["GJetsHT-100To200","/GJets_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-4cores5k_106X_mcRun2_asymptotic_v17-v1/NANOAODSIM-"],
+"GJetsHT-200To400":["GJetsHT-200To400","/GJets_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM"],
+"GJetsHT-400To600":["GJetsHT-400To600","/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM"],
+"GJetsHT-600ToInf":["GJetsHT-600ToInf","/GJets_HT-600ToInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM"],
+"QCD": ["QCD","/QCD_Pt-20_MuEnrichedPt15_TuneCP5_13TeV-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v2/NANOAODSIM"]
+}
